@@ -49,8 +49,6 @@
         </resources>
       </configuration>
 </plugin>
- <build>
-<plugins>
 <plugin>
 <groupId>org.jacoco</groupId>
 <artifactId>jacoco-maven-plugin</artifactId>
@@ -70,8 +68,6 @@
 </execution>
 </executions>
 </plugin>
-</plugins>
-</build>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
